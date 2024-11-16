@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    margin: 4.375rem;
+}
+
+.Header-ul {
+    display: flex;
+    gap: 0.625rem;
+    list-style: none;
+}
+
+.Article-h1 {
+    width: 60%;
+}
+
+.Article {
+    margin: 4.063rem;
+}
+
+.Article-picture {
+    margin-top: 4.063rem;
+    display: grid;
+    gap: 1.563rem;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+
+        "Article-img1 Article-img2 Article-img3 Article-img4"
+        "Article-img5 Article-img6 Article-img7 Article-img8"
+        "Article-img9 Article-img10 Article-img11 Article-img12";
+}
+
+.Article-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 1s ease;
+}
+
+.Article-img:hover {
+    transform: scale(1.1);
+}
+
+.Article-img1 {
+    grid-area: Article-img1;
+}
+
+.Article-img2 {
+    grid-area: Article-img2;
+}
+
+.Article-img3 {
+    grid-area: Article-img3;
+}
+
+.Article-img4 {
+    grid-area: Article-img4;
+}
+
+.Article-img5 {
+    grid-area: Article-img5;
+}
+
+.Article-img6 {
+    grid-area: Article-img6;
+}
+
+.Article-img7 {
+    grid-area: Article-img7;
+}
+
+.Article-img8 {
+    grid-area: Article-img8;
+}
+
+.Article-img9 {
+    grid-area: Article-img9;
+}
+
+.Article-img10 {
+    grid-area: Article-img10;
+}
+
+.Article-img11 {
+    grid-area: Article-img11;
+}
+
+.Article-img12 {
+    grid-area: Article-img12;
+}
+
+.Article-moreInfo {
+    margin: 5rem auto 0;
+    text-align: center;
+    display: block;
+    width: fit-content;
+
+}
+
+/*  FOOTER */
+
+.Footer {
+    margin: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Footer-separador {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer-upArrow{
+    text-decoration: none;
+    margin: 1.063rem;
+    color: #ccc;
+    
+}
+
+.Footer-line {
+    width: 100%;
+    height: 1px;
+    border: 1px solid #ccc;
+}
+
+.Footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.Footer-rrss {
+    gap: 0.625rem;
+    display: flex;
+    list-style: none;
+}
+
+.Footer-links {
+    font-size: 0.875rem;
+}
