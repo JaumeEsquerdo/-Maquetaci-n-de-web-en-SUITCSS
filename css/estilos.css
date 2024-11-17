@@ -4,7 +4,7 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
+/* HEADER */
 .Header {
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@
     text-decoration: underline;
 }
 
-
+/* MAIN */
 
 .Article-h1 {
     width: 60%;
@@ -184,6 +184,3 @@
 .Footer-links {
     font-weight: 500;
 }
-
-
-/*  */
