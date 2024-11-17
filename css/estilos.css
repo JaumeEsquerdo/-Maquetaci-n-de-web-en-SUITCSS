@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .Header {
@@ -12,12 +13,28 @@
 
 .Header-ul {
     display: flex;
-    gap: 0.625rem;
+    gap: 2.625rem;
     list-style: none;
 }
+.Header-a,.Article-moreInfo,.Footer-links{
+    text-decoration: none;
+    color: black;
+}
+
+.Header-a.isActive{
+    text-decoration: underline;
+}
+
+.Header-a:hover,.Article-moreInfo:hover,.Footer-links:hover{
+    text-decoration: underline;
+}
+
+
 
 .Article-h1 {
     width: 60%;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 .Article {
@@ -98,6 +115,7 @@
 }
 
 .Article-moreInfo {
+    font-weight: 500;
     margin: 5rem auto 0;
     text-align: center;
     display: block;
@@ -108,7 +126,7 @@
 /*  FOOTER */
 
 .Footer {
-    margin: 1.875rem;
+    /* margin: 1.875rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,9 +135,18 @@
 .Footer-separador {
     display: flex;
     width: 100%;
-    height: 100px;
+    max-width: 100%;
+    height: 50px;
     align-items: center;
     justify-content: center;
+    padding: 0 10px 0 4.375rem;
+    
+    
+}
+.Footer-rights{
+    font-size: 0.625rem;
+    font-weight: 500;
+
 }
 
 .Footer-upArrow{
@@ -138,7 +165,9 @@
 .Footer-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
+    padding: 1rem 4.375rem;
 
 }
 
@@ -148,6 +177,13 @@
     list-style: none;
 }
 
-.Footer-links {
-    font-size: 0.875rem;
+.Footer-li {
+    font-size: 0.75rem;
 }
+
+.Footer-links {
+    font-weight: 500;
+}
+
+
+/*  */
