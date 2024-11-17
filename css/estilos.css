@@ -54,9 +54,9 @@
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
-    "Article-img--1 Article-img--2 Article-img--3 Article-img--4"
-    "Article-img--5 Article-img--6 Article-img--7 Article-img--8"
-    "Article-img--9 Article-img--10 Article-img--11 Article-img--12";
+        "Article-img--1 Article-img--2 Article-img--3 Article-img--4"
+        "Article-img--5 Article-img--6 Article-img--7 Article-img--8"
+        "Article-img--9 Article-img--10 Article-img--11 Article-img--12";
 }
 
 .Article-img {
